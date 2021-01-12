@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/main.css">
+    <link rel="stylesheet" href="public/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>P&M / Manufacture Of Bottles</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href=""><img src="/assets/img/LogoRightSM.svg" alt="Logo"></a>
+                <ul class="navmenu">
+                    <li>
+                        <a class="font" href="#">Domov</a>
+                    </li>
+                    <li>
+                        <a class="font" href="#">Produkty</a>
+                    </li>
+                    <li>
+                        <a class="font" href="#">Benefity</a>
+                    </li>
+                    <li>
+                        <a class="font" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="fotoDiv">
+                <img class="fotoCompany" src="assets/img/CompanyFoto.jpg" alt="Company">
+                <p class="tag font "> Manufacture of bottles using <br> the blow molding method</p>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <p class="sectionName font">Produkty</p>
+                <div class="divProduct">
+                    <div class="itemProduct">
+                        <p class="itemName font">BASIC</p>
+                        <img src="/assets/img/basic.png" alt="">
+                        <a class="font" href="">Info</a>
+                    </div>
+                    <div class="itemProduct">
+                        <p class="itemName font">BASIC+</p>
+                        <img src="/assets/img/Basic+.png" alt="">
+                        <a class="font" href="">Info</a>
+                    </div>
+                    <div class="itemProduct">
+                        <p class="itemName font">ALL INCLUSIVE</p>
+                        <img src="/assets/img/AllInclusive.png" alt="">
+                        <a class="font" href="">Info</a>
+                </div>
+            </section>
+
+            <section>
+                <p class="sectionName font">Benefity</p>
+                <div class="shadow">
+                    <div class="benefits">
+                        <img src="/assets/img/benefits1.jpg" alt="">
+                        <div class="column font">
+                            <p>Rodinna firma</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Proin
+                            mattis lacinia justo. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow">
+                    <div class="benefits">
+                        <img src="/assets/img/benefits2.jpg" alt="">
+                        <div class="column font">
+                            <p>Kvalita</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Proin
+                            mattis lacinia justo. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow">
+                    <div class="benefits">
+                        <img src="/assets/img/benefits3.jpg" alt="">
+                        <div class="column font">
+                            <p>Perzonalizacia</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Proin
+                            mattis lacinia justo. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow">
+                    <div class="benefits margin">
+                        <img src="/assets/img/benefits4.jpg" alt="">
+                        <div class="column font">
+                            <p>Logistika</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae diam non enim vestibulum interdum. Proin
+                            mattis lacinia justo. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <p class="sectionName font">Kontakt</p>
+                    <div class="contact">
+                        <div class="contactleft">
+                            <div id="form-main">
+                                <div id="form-div">
+                                    <form class="montform" id="reused_form">
+                                        <p class="name">
+                                            <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                                        </p>
+                                        <p class="email">
+                                            <input name="email" type="email" required class="feedback-input" id="email" placeholder="Email" />
+                                        </p>
+                                        <p class="text">
+                                            <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                                        </p>
+                                        <div class="submit">
+                                            <button type="submit" class="button-blue">SUBMIT</button>
+                                            <div class="ease"></div>
+                                        </div>
+                                    </form>
+                                    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                        <h4>
+                                            Error
+                                        </h4>
+                                        Sorry there was an error sending your form.
+                                    </div>
+                                    <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                        <h2>Success! Your Message was Sent Successfully.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="contactright">
+                            <div>
+
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+        </main>
+    </div>
+    <script src="assets/js/form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.8/dist/alpine.js" defer></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

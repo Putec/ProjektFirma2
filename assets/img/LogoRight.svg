@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="300px" viewBox="0 0 556 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo.vpravo Copy</title>
+    <defs>
+        <filter x="-10.8%" y="-19.0%" width="117.2%" height="138.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-27.5%" y="-16.6%" width="155.1%" height="133.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="8" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <text id="text-3" font-family="AXIS-ExtraBold, AXIS" font-size="105" font-weight="600">
+            <tspan x="291.6025" y="211">P&amp;M</tspan>
+        </text>
+        <filter x="-7.1%" y="-16.1%" width="119.9%" height="145.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="8" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo.vpravo-" transform="translate(17.000000, 0.000000)">
+            <g id="Logo.vpravo-Copy" filter="url(#filter-1)" transform="translate(-17.000000, -19.000000)">
+                <g id="Group-Copy-2" filter="url(#filter-2)" transform="translate(157.473999, 157.583709) rotate(45.000000) translate(-157.473999, -157.583709) translate(73.973999, 19.083709)">
+                    <rect id="Rectangle-Copy-3" fill="#1A2E7B" x="51.2564935" y="0.800076598" width="61.8892857" height="50.7961783"></rect>
+                    <path d="M1.11396084,74.472365 L166.817532,74.472365 L166.817532,236.809308 C166.817532,257.685671 149.893896,274.609308 129.017532,274.609308 L38.9139608,274.609308 C18.0375973,274.609308 1.11396084,257.685671 1.11396084,236.809308 L1.11396084,74.472365 L1.11396084,74.472365 Z" id="Rectangle" fill="#D8D8D8"></path>
+                    <rect id="Rectangle" fill="#1A2E7B" x="0.76608956" y="74.0734538" width="165.703571" height="50.7961783"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#1A2E7B" x="0.761038798" y="148.783564" width="165.703571" height="50.7961783"></rect>
+                    <rect id="Rectangle" fill="#1A2E7B" x="50.5506494" y="225.648773" width="61.8892857" height="50.7961783"></rect>
+                </g>
+                <g id="P&amp;M-Copy" fill-rule="nonzero" fill="#1A2E7B">
+                    <use fill-opacity="1" filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                    <use fill-opacity="1" xlink:href="#text-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
